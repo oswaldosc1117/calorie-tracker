@@ -1,30 +1,11 @@
-# React + TypeScript + Vite
+# Contador de Calorías
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hola.
 
-Currently, two official plugins are available:
+El proyecto consiste en un contador de calorías tanto consumidas como quemadas. El mismo también entrega un balance sobre si consumieron mas colorías
+de las que quemaron o viceversa.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Hecho con React, TypeScript, Tailwind y Vite.
+Implementa LocalStorage. Pueden cerrar sitio y los datos que hayan ingresado previamente no se perderan.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+https://venerable-taffy-a485a2.netlify.app/
